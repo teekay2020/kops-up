@@ -16,15 +16,14 @@ $ terraform apply
 
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-## Outputs
+## The following  are required
 
 | Name | Description |
 |------|-------------|
-| this\_security\_group\_description | The description of the security group |
-| this\_security\_group\_id | The ID of the security group |
-| this\_security\_group\_name | The name of the security group |
-| this\_security\_group\_owner\_id | The owner ID |
-| this\_security\_group\_vpc\_id | The VPC ID |
+| cluster\_dns\_zone | Your registered domain . Must have been created|
+| cluster\_name | For exmaple  [ kopsup.shegoj.com ] |
+| cluster\_state\_s3 | S3 bucket created to store cluster state. Must have been created |
+| key\_id |Key to login into EC2 Toolbox node . Mode have been created |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
