@@ -9,12 +9,12 @@ variable use_default {
 
 
 variable "vpc_cidr_block" {
-  default     =  "172.31.0.0/20"
+  default     =  "172.31.16.0/20"
 }
 
 
 variable "subnet_id" {
-  default     =  "subnet-9cf7e2f8"
+  default     =  "subnet-dc1f15aa"
 }
 
 variable "key_name" {
