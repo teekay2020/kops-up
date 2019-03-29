@@ -57,6 +57,6 @@ variable "cluster_dns_zone" {
 }
 
 variable "cluster_state_s3" {
-#  default     = "cluster1.brownsugarmua90.co.uk"
+  default     = "cluster1.brownsugarmua90.co.uk"
 }
 
