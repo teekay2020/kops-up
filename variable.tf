@@ -1,6 +1,6 @@
 ##### if you are not using existing vpc
 variable "vpc_id" {
-  default     =  "vpc-2348b644"
+  default     =  "vpc-70303314"
 }
 
 variable use_default {
@@ -9,16 +9,16 @@ variable use_default {
 
 
 variable "vpc_cidr_block" {
-  default     =  "10.0.0.0/16"
+  default     =  "172.31.0.0/20"
 }
 
 
 variable "subnet_id" {
-  default     =  "subnet-9d8347d4"
+  default     =  "subnet-9cf7e2f8"
 }
 
 variable "key_name" {
-#  default     =  "jenkins_key4"
+  default     =  "kubenew1"
 }
 
 variable "associate_toolbox_with_public_ip_address" {
@@ -26,7 +26,7 @@ variable "associate_toolbox_with_public_ip_address" {
 }
 
 variable "cluster_name" {
-#  default     = "olus.shegoj.com"
+  default     = "clusters.dev.brownsugarmua90.co.uk"
 }
 
 variable "master_ec2_type" {
@@ -53,10 +53,10 @@ variable "zones" {
 }
 
 variable "cluster_dns_zone" {
-#  default     = "shegoj.com"
+  default     = "brownsugarmua90.co.uk"
 }
 
 variable "cluster_state_s3" {
-#  default     = "kops101.shegoj.com"
+#  default     = "cluster1.brownsugarmua90.co.uk"
 }
 
